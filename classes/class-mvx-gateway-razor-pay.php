@@ -21,7 +21,7 @@ class MVX_Gateway_RazorPay extends MVX_Payment_Gateway {
     public function __construct() {
         $this->id = 'razorpay';
         $this->gateway_title = apply_filters('mvx_razorpay_gateway_title', __('MVX Razorpay', 'dc-woocommerce-multi-vendor'));
-        $this->enabled = mvx_is_module_active('razorpay') ? true : false;
+        $this->enabled = 'Enable';
         $this->key_id = get_mvx_vendor_settings('key_id', 'payment_razorpay');
         $this->key_secret = get_mvx_vendor_settings('key_secret', 'payment_razorpay');
         if (!empty($this->key_id) && !empty($this->key_secret) ) {
