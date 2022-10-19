@@ -25,7 +25,7 @@ class MVX_Razorpay_Checkout_Gateway_Dependencies {
         if (!self::$active_plugins) {
             self::init();
         }
-        return in_array('multiVendorX/dc_product_vendor.php', self::$active_plugins) || array_key_exists('multiVendorX/dc_product_vendor.php', self::$active_plugins);
+        return in_array('dc-woocommerce-multi-vendor/dc_product_vendor.php', self::$active_plugins) || array_key_exists('dc-woocommerce-multi-vendor/dc_product_vendor.php', self::$active_plugins);
     }
     public static function others_razorpay_plugin_active_check() {
         if (!self::$active_plugins) {

@@ -27,9 +27,9 @@ class MVX_Razorpay_Checkout_Gateway {
 
     public function mvx_multi_tab_array_list_for_razorpay($tab_link) {
         $tab_link['marketplace-payments'][] = array(
-                'tablabel'      =>  __('Razorpay', 'multivendorx'),
+                'tablabel'      =>  __('Razorpay', 'mvx-razorpay-checkout-gateway'),
                 'apiurl'        =>  'mvx_module/v1/save_dashpages',
-                'description'   =>  __('Connect to vendors stripe account and make hassle-free transfers as scheduled.', 'multivendorx'),
+                'description'   =>  __('Connect to vendors stripe account and make hassle-free transfers as scheduled.', 'mvx-razorpay-checkout-gateway'),
                 'icon'          =>  'icon-tab-stripe-connect',
                 'submenu'       =>  'payment',
                 'modulename'     =>  'payment-razorpay'
@@ -42,20 +42,20 @@ class MVX_Razorpay_Checkout_Gateway {
             [
                 'key'       => 'key_id',
                 'type'      => 'text',
-                'label'     => __('Key ID', 'mvx-pro'),
-                'placeholder'   => __('Key ID', 'mvx-pro'),
+                'label'     => __('Key ID', 'mvx-razorpay-checkout-gateway'),
+                'placeholder'   => __('Key ID', 'mvx-razorpay-checkout-gateway'),
                 'database_value' => '',
             ],
             [
                 'key'       => 'key_secret',
                 'type'      => 'text',
-                'label'     => __('Key Secret', 'mvx-pro'),
-                'placeholder'   => __('Key Secret', 'mvx-pro'),
+                'label'     => __('Key Secret', 'mvx-razorpay-checkout-gateway'),
+                'placeholder'   => __('Key Secret', 'mvx-razorpay-checkout-gateway'),
                 'database_value' => '',
             ],
             [
                 'key'    => 'is_split',
-                'label'   => __( "Enable Split Payment", 'mvx-pro' ),
+                'label'   => __( "Enable Split Payment", 'mvx-razorpay-checkout-gateway' ),
                 'class'     => 'mvx-toggle-checkbox',
                 'type'    => 'checkbox',
                 'options' => array(

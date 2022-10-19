@@ -1,10 +1,10 @@
-=== MVX Razorpay Split Payment ===
-Contributors: MVX, rajsekharchatterjee11
+=== MultiVendorX Razorpay Split Payment ===
+Contributors: wcmp, rajsekharchatterjee11
 Tags: razorpay checkout gateway, mvx, wc marketplace, commission, vendor, WooCommerce, multivendor, multi vendor, multi seller, parallel payment, chain payment, split payment
 Donate link: https://wc-marketplace.com/donate
 Requires at least: 4.2
-Tested up to: 5.8.2
-Stable tag: 1.0.1
+Tested up to: 6.0.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,12 @@ Ans. This plugin is applicable for MVX version 3.7.1+.
 == Screenshots ==
 1. Payment Gateway Settings Panel.
 2. WooCommerce Checkout Option
+
+= 1.0.2 - 2022-10-19 =
+* Added - Compatibility with WordPress 6.0.2.
+* Added - Compatibility with WooCommerce 7.0.0.
+* Added - MultiVendorX compatibility.
+* Updated - Language File.
 
 = 1.0.1 - 2021-12-14 =
 * Added - Compatibility with WordPress 5.8.2.
