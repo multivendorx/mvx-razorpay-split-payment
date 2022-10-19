@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: MVX Razorpay Split Payment
+ * Plugin Name: MultiVendorX Razorpay Split Payment
  * Plugin URI: https://multivendorx.com/addons/
- * Description: MVX Razorpay Split Checkout Gateway is a payment gateway for pay with woocommerce as well as split payment with MVX multivendor marketplace.
+ * Description: MultiVendorX Razorpay Split Checkout Gateway is a payment gateway for pay with woocommerce as well as split payment with MVX multivendor marketplace.
  * Author: WC Marketplace
  * Version: 1.0.2
  * Author URI: https://multivendorx.com/

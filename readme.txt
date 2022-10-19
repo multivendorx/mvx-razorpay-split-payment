@@ -1,7 +1,7 @@
 === MultiVendorX Razorpay Split Payment ===
 Contributors: wcmp, rajsekharchatterjee11
-Tags: razorpay checkout gateway, mvx, wc marketplace, commission, vendor, WooCommerce, multivendor, multi vendor, multi seller, parallel payment, chain payment, split payment
-Donate link: https://wc-marketplace.com/donate
+Tags: razorpay checkout gateway, mvx, multivendorx, commission, vendor, WooCommerce, multivendor, multi vendor, multi seller, parallel payment, chain payment, split payment
+Donate link: https://multivendorx.com/donate
 Requires at least: 4.2
 Tested up to: 6.0.2
 Stable tag: 1.0.2
@@ -19,7 +19,7 @@ The much awaited <strong>MVX Razorpay Split Payment</strong> is now live.
 Activate or deactivate Razorpay Checkout payment for customers as well vendors.
 
 
-To know more about MVX Razorpay Split Payment, please <a href="http://wc-marketplace.com/knowledgebase/mvx-razorpay-Checkout-gateway/">visit us</a>
+To know more about MVX Razorpay Split Payment, please <a href="http://multivendorx.com/knowledgebase/mvx-razorpay-Checkout-gateway/">visit us</a>
 
 == Installation ==
 
